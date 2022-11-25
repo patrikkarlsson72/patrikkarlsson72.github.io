@@ -26,7 +26,7 @@ urls:
 
 author_logo: profile.png
 author: Patrik Karlsson
-author_bio: Hi, my name is Patrik.
+author_bio: Hi, my name is Patrik Karlsson and I¨m an experienced IT consultant with more than 12 years of experience in the IT environment who enjoys new challenges. Good knowledge and experience in application packaging (msi, msix, app-v, thinapp), Admin Studio, Install Shield, powershell and powershell app deployment toolkit. Also used to setting up and working in virtual machines (vmware, hyper-v and KVM) and working with systems such as SCCM, Intune, Active Directory, and Microsoft 365. Furthermore, I have knowledge of Linux administration, Ansible, Docker, Powershell, Python, and much more...
 author_email: "patrik.karlsson72@gmail.com"
 author_location: Sweden
 author_website_url: "https://patrikkarlsson72.gihub.io"
@@ -58,7 +58,7 @@ author_education_details:
                 visibility: true
 
 # Projects
-author_project_details:
+#author_project_details:
               - project_thumbnail: gamershub.png
                 project_title: Gamers Hub
                 project_description: A Platform built for Gamers and Game Devs
@@ -109,7 +109,7 @@ permalink: pretty
 # Choose what to show ( can be true or false)
 show_author_work_experiences: true
 show_author_education_details: true
-show_author_project_details: true
+show_author_project_details: false
 
 # pagination of posts
 paginate: 4
