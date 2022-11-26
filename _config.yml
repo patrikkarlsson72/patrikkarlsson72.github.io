@@ -16,8 +16,8 @@ urls:
       url: /blog
     - text: Gallery
       url: /gallery
-    - text: Shop
-      url : /shop
+#    - text: Shop
+#      url : /shop
     - text: Contact
       url : /contact
 
@@ -35,18 +35,25 @@ hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg.
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
+            - company_name: Mindgrape
+              company_logo: mindgrape-boll.png
+              company_url: https://mindgrape.se
+              designaiton: IT Consultant
+              description: Work as an IT consultant
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+            - company_name: Scania (Consulting assignment)
+              company_logo: logo-scania-1.svg
+              company_url: https://scania.com
+              designation: Application Coordinator
+              description: Coordination of application delivery ie. receive orders send them for packaging (VW IT) and coordinate with customer/application owner for "release to production". Troubleshooting/testing of applications. Works daily in Ivanti workspace manager.
               visibility: true
+            - company_name: Eskilstuna kommun
+              company_logo: eskilstuna.jpg
+              company_url: https://eskilstuna.se
+              designation: Application packaging
+              description: Packaging of .msi files and .exe files | Testing of application packages and distribution via SCCM | Conversion of applications to .msix | Daily work/administration in Office 365 as well as building customized application packages for the same | Design and implementation of Intune | Responsible for packaging Adobe's products. This applies to e.g. Photoshop, Illustrator etc | Packaging and implementation of business-specific systems, such as Tekla, Viva etc
+              visibility: true  
+
 
 # Education
 author_education_details:
@@ -58,7 +65,7 @@ author_education_details:
                 visibility: true
 
 # Projects
-#author_project_details:
+author_project_details:
               - project_thumbnail: gamershub.png
                 project_title: Gamers Hub
                 project_description: A Platform built for Gamers and Game Devs
@@ -108,7 +115,7 @@ permalink: pretty
 
 # Choose what to show ( can be true or false)
 show_author_work_experiences: true
-show_author_education_details: true
+show_author_education_details: false
 show_author_project_details: false
 
 # pagination of posts
